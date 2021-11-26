@@ -1,0 +1,275 @@
+.App {
+  text-align: center;
+  display: block;
+}
+
+.bostaImg{
+  width: 120px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.topBarMainCont{
+  /* max-width: 100%; */
+  height: 8vh;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 0 20px;
+}
+.topBarFirstCont{
+
+}
+.topBarSecondCont{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  font-family: 'Cairo', sans-serif;
+}
+
+div > a{
+font-size: 12px;
+font-family: 'Cairo', sans-serif;
+font-weight: bolder;
+
+}
+a:hover{
+  cursor: pointer;
+}
+@media screen and (min-width: 1000px){
+  div > a{
+  font-size: 20px;
+  }
+  .bostaImg{
+    width: 200px;
+  }
+  .topBarMainCont{
+    justify-content: space-around;
+  }
+  .topBarSecondCont{
+    width: 28%;
+  }
+
+.BodyMainCont{
+    padding: 14vh 5vw 0 5vw; 
+  }
+    
+.ReportMainCont{
+    width: 40vw;
+    margin-bottom: 0px ;
+}
+
+h4{
+  color: #4d4d4d;
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: 'Cairo', sans-serif;
+}
+.infoPartCont{
+  margin-bottom: 0px;
+  text-align: right;
+}
+
+.reportsMainCont{
+  width: 50vw;
+}
+
+.subTitle{
+  margin-bottom: 5vh;
+  font-family: 'Cairo', sans-serif;
+}
+    
+}
+
+.BodyMainCont{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  justify-content: center;
+  padding: 6vh 4vw 0 4vw; 
+  font-family: 'Cairo', sans-serif;
+}
+
+.BodySubCont{
+  margin-top: 5vh ;
+  margin-bottom: 12vh;
+  font-family: 'Cairo', sans-serif;
+}
+
+.flexRow{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+.ReportMainCont{
+  width: 100%;
+  margin-bottom: 40px ;
+}
+
+.mobileRow{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+@media screen and (min-width: 600px){
+  .mobileRow{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  .Circle{
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (min-width: 800px){
+div > a{
+  font-size: 16px;
+  }
+  .topBarSecondCont{
+  width: 25%;
+  }
+}
+
+p{
+  margin: 0;
+}
+
+.flexColumn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.infoPartCont{
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+h4{
+  color: #4d4d4d;
+  margin: 0;
+  font-family: 'Cairo', sans-serif;
+}
+
+
+@media screen and (min-width: 1000px){
+  h4{
+    color: #4d4d4d;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: 'Cairo', sans-serif;
+  }
+  .infoPartCont{
+    margin-bottom: 0px;
+    text-align: right;
+  }
+
+  .reportsMainCont{
+    width: 50vw;
+  }
+
+  .subTitle{
+    margin-bottom: 5vh;
+    font-family: 'Cairo', sans-serif;
+  }
+}
+
+h3 {
+  margin: 0;
+  font-family: 'Cairo', sans-serif;
+  
+}
+.subTitle{
+  margin-bottom: 5vh;
+  color: #181818;
+  font-size: 25px;
+  font-family: 'Cairo', sans-serif;
+  text-align: right;
+}
+.content{
+  margin-bottom: 1vh;
+  font-family: 'Cairo', sans-serif;
+}
+
+button{
+  font-family: 'Cairo', sans-serif;
+  background-color: #f73838;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Cairo', sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  width: 200px;
+}
+
+.listTitle{
+  font-family: 'Cairo', sans-serif;
+  color: #353535;
+  font-size: 18px;
+  font-weight: bold;
+  width: 40%;
+}
+.listEntries{
+  font-family: 'Cairo', sans-serif;
+  width: 40%;
+}
+
+.reportsMainCont{
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+
+.burgerMenuContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  text-align: right;
+  position: absolute;
+  background-color: white;
+  padding: 0 15px 0 15px;
+  top: 40px;
+  left: 10px;
+
+}
+
+
+.Circle{
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.line{
+  border: 3px solid;
+  width: 20vw; 
+  height: 0px;
+}
