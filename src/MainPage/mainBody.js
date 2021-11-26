@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from "react";
 import MainPageFirstInfo from "./mainPageFirstInfo";
-import check from './check.png'
 import StepperComponent from "./stepperComponent";
 import ShipmentInfo from "./shipmentInfo";
 import axios from 'axios';
@@ -30,7 +29,7 @@ useEffect(() => {
   {data && <StepperComponent event={data}/> }   
     <div style={{marginTop:'20px',display:'flex', flexDirection:'row-reverse', justifyContent:'space-around', alignItems:'center'}}><p>تم انشاء الشحن</p><p>تم استلام الشحنة من التاجر</p><p>الشحنة خرحت للتسليم</p><p>تم التسليم</p></div>
 </div>
-<div className="mobileRow" style={{justifyContent:'space-around'}}>
+<div className="mobileRow" style={{justifyContent:'space-around', padding:'0 40px 0 40px'}}>
 {data && <Reports reportData={data.TransitEvents}/> }
     <ShipmentInfo/>
 </div>

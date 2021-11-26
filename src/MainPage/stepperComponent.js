@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import check from './check.png'
+import check from '../assets/check.png'
 
 const StepperComponent = (props) => {
 // console.log(event.CurrentStatus.state)

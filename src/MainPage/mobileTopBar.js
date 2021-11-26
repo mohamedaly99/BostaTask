@@ -1,6 +1,6 @@
 import React,{useState} from "react";
-import burger from './burger.png'
-import bostaImg from './bosta.png'
+import burger from '../assets/burger.png'
+import bostaImg from '../assets/bosta.png'
 
 const MobileTopBar = () => {
 

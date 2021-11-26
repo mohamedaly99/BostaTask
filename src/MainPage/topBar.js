@@ -1,5 +1,5 @@
 import React from "react";
-import BostaImg from './bosta.png'
+import BostaImg from '../assets/bosta.png'
 
 const TopBar = () => {
     return(

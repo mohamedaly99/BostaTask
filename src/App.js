@@ -1,8 +1,8 @@
 import React, {useEffect,useState} from 'react';
 import './App.css';
-import TopBar from './topBar.js'
-import MainBody from './mainBody';
-import MobileTopBar from './mobileTopBar';
+import TopBar from './MainPage/topBar.js'
+import MainBody from './MainPage/mainBody';
+import MobileTopBar from './MainPage/mobileTopBar';
 
 function App() {
 

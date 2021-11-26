@@ -67,7 +67,7 @@ a:hover{
   }
     
 .ReportMainCont{
-    width: 40vw;
+    width: 30vw;
     margin-bottom: 0px ;
 }
 
@@ -82,9 +82,6 @@ h4{
   text-align: right;
 }
 
-.reportsMainCont{
-  width: 50vw;
-}
 
 .subTitle{
   margin-bottom: 5vh;
@@ -170,28 +167,21 @@ h4{
   font-family: 'Cairo', sans-serif;
 }
 
-
-@media screen and (min-width: 1000px){
-  h4{
-    color: #4d4d4d;
-    margin: 0;
-    margin-bottom: 10px;
-    font-family: 'Cairo', sans-serif;
-  }
-  .infoPartCont{
-    margin-bottom: 0px;
-    text-align: right;
-  }
-
-  .reportsMainCont{
-    width: 50vw;
-  }
-
-  .subTitle{
-    margin-bottom: 5vh;
-    font-family: 'Cairo', sans-serif;
-  }
+.reportsMainCont{
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
 }
+
+.content{
+  margin-bottom: 1vh;
+  font-family: 'Cairo', sans-serif;
+  font-size: 13px;
+  text-align: right;
+}
+
+
 
 h3 {
   margin: 0;
@@ -205,10 +195,7 @@ h3 {
   font-family: 'Cairo', sans-serif;
   text-align: right;
 }
-.content{
-  margin-bottom: 1vh;
-  font-family: 'Cairo', sans-serif;
-}
+
 
 button{
   font-family: 'Cairo', sans-serif;
@@ -221,12 +208,13 @@ button{
   cursor: pointer;
   font-family: 'Cairo', sans-serif;
   font-size: 100%;
-  height: 44px;
+  height: 36px;
   line-height: 1.15;
   margin: 12px 0 0;
   outline: none;
   overflow: hidden;
-  width: 200px;
+  font-size: 14px;
+  width: 150px;
 }
 
 .listTitle{
@@ -241,12 +229,7 @@ button{
   width: 40%;
 }
 
-.reportsMainCont{
-width: 100%;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-}
+
 
 .burgerMenuContainer{
   display: flex;
@@ -272,4 +255,33 @@ justify-content: flex-start;
   border: 3px solid;
   width: 20vw; 
   height: 0px;
+}
+@media screen and (min-width: 1000px){
+  h4{
+    color: #4d4d4d;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: 'Cairo', sans-serif;
+  }
+  .infoPartCont{
+    margin-bottom: 0px;
+    text-align: right;
+  }
+
+  button{
+    width: 200px;
+    height: 40px;
+  }
+  /* .reportsMainCont{
+    width: 40vw;
+  } */
+
+  .subTitle{
+    margin-bottom: 5vh;
+    font-family: 'Cairo', sans-serif;
+  }
+
+  .content{
+    font-size: 16px;
+  }
 }
